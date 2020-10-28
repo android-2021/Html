@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+body
+{
+margin:0px;
+padding:0px;
+background:blue;
+}
+button
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background-color:#fff;
+font-size:19px;
+}
+</style>
+</head>
+<body>
+<button>change back ground color</button>
+<script type="text/javascript">
+var color=["red","green","purple"];
+var p=0;
+document.querySelector("button").addEventListener("click",funtion()
+{
+p = p < color.length ? ++p : 0;
+document.querySelector("body").style.background=Color[p]
+})
+</script>
+</body>
+</html>

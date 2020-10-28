@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+
+        }
+    </style>
+    <style>
+        table,th,td{
+            border: 12px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+    <style>
+        #custom-table{
+            border: 4px;
+            width: 250px;
+            height: 200px;
+            background-color: deepskyblue;
+            text-decoration: solid;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+<table>
+    <thead>
+    <tr>
+        <td>S NO</td>
+        <td>Name</td>
+        <td>Address</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Adil</td>
+        <td>Rampura</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Adil</td>
+        <td>Rampura</td>
+    </tr>
+    </tbody>
+    <th>This is first Rowspam</th>
+</table>
+    <table>
+        <thead>
+        <tr>
+            <td>S NO</td>
+            <td>Name</td>
+            <td>Address</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        </tbody>
+    </table>
+    <th>This is first Custom view</th>
+    </table>
+    <table width="100%" id="custom-table">
+        <thead>
+        <tr>
+            <td>S NO</td>
+            <td>Name</td>
+            <td>Address</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Adil</td>
+            <td>Rampura</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
